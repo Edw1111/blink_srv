@@ -1,5 +1,5 @@
 {
-  "id": "com.icanblink.blink",
+  "id": "blink.srv",
   "command": "/app/start.sh",
   "separate-locales": false,
   "base": "io.qt.qtwebkit.BaseApp",
@@ -507,7 +507,7 @@
       "sources": [
         {
           "type": "git",
-          "url": "https://github.com/syco/python3-sipsimple.git",
+          "url": "https://github.com/Edw1111/sipsimple-srv-fixed",
           "branch": "master"
         },
         {
@@ -977,7 +977,7 @@
       "sources": [
         {
           "type": "git",
-          "url": "https://github.com/syco/blink-qt.git",
+          "url": "https://github.com/Edw1111/blink-srv-fixed",
           "branch": "master"
         },
         {
@@ -1016,9 +1016,9 @@
         "chmod +x /app/start.sh"
       ],
       "post-install": [
-        "install -Dm644 com.icanblink.blink.desktop ${FLATPAK_DEST}/share/applications/com.icanblink.blink.desktop",
-        "install -Dm644 com.icanblink.blink.png ${FLATPAK_DEST}/share/icons/com.icanblink.blink.png",
-        "install -Dm644 com.icanblink.blink.metainfo.xml ${FLATPAK_DEST}/share/metainfo/com.icanblink.blink.metainfo.xml"
+        "install -Dm644 blink.srv.desktop ${FLATPAK_DEST}/share/applications/com.icanblink.blink.desktop",
+        "install -Dm644 blink.srv.png ${FLATPAK_DEST}/share/icons/com.icanblink.blink.png",
+        "install -Dm644 blink.srv.metainfo.xml ${FLATPAK_DEST}/share/metainfo/com.icanblink.blink.metainfo.xml"
       ]
     }
   ]
