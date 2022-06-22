@@ -993,15 +993,15 @@
         },
         {
           "type": "file",
-          "path": "com.icanblink.blink.desktop"
+          "path": "blink.srv.desktop"
         },
         {
           "type": "file",
-          "path": "com.icanblink.blink.png"
+          "path": "blink.srv.png"
         },
         {
           "type": "file",
-          "path": "com.icanblink.blink.metainfo.xml"
+          "path": "blink.srv.metainfo.xml"
         }
       ],
       "buildsystem": "simple",
