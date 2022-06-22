@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.icanblink.blink</id>
+  <id>blink.srv</id>
   <name>Blink</name>
   <project_license>LicenseRef-proprietary=https://ag-projects.com/</project_license>
   <metadata_license>CC0-1.0</metadata_license>
