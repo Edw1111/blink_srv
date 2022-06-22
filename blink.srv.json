@@ -1,5 +1,5 @@
 {
-  "id": "blink.srv",
+  "id": "blink.srv.fixed",
   "command": "/app/start.sh",
   "separate-locales": false,
   "base": "io.qt.qtwebkit.BaseApp",
